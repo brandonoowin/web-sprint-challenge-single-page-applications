@@ -82,3 +82,13 @@ nav p {
   border-style: solid;
   border-color: blue;
 }
+
+.confirm {
+  border-style: solid;
+  text-align: center;
+  font-weight: bold;
+}
+
+.confirm p {
+  color: crimson;
+}

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import * as Yup from 'yup';
 import formSchema from './formSchema';
 
+
 export default function Form(){
 
 
@@ -116,7 +117,7 @@ export default function Form(){
             placeholder="Please list any special instructions that you want the kitchen to be aware of."
             onChange={handleChange}
             /><br></br><br></br>
-          <input type="submit" value='Place your Order'/>
+          <input id='order-button' type="submit" value='Add to Order'/>
         </form>
       </div>
   
