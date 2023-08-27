@@ -12,6 +12,6 @@ export default function Home(props){
           <p>Your favorite food delivered right to you while coding. 
             We are here to deliver the best, fresh, and newest pizza around! </p>
           <h2>Ready to customize your Pizza?</h2>
-          <button id="pizza-button" onClick={onClick}>Click Here</button>
+          <button id="order-pizza" onClick={onClick}>Click Here</button>
       </div>
     )}
