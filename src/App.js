@@ -1,22 +1,13 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import './App.css'
 import Home from "./Components/Home";
 import Form from "./Components/Form";
+import Confirmation from './Components/Confirmation'
+
 
 
 const App = () => {
-
-  const [completedOrder, useCompletedOrder] = useState({})
-  const [orderValue, useOrderValue] = useState({ name:'', size:'', toppings:'', special:''})
-
-  const onChange = () => {
-
-  }
-
-  const onClick = () => {
-
-  }
 
   return (
     <div>
@@ -30,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='pizza' element={<Form />}/>
+        <Route path='confirmation' element={<Confirmation />}/>
       </Routes>
     </div>
     
